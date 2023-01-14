@@ -46,11 +46,11 @@ button i{
 input, select{
     padding: 0.25rem 0.5rem;
 }
-/*
+
 .hide {
     display: none;
 }
-*/
+
 /* Criação da centralização */
 .todo-container{
     max-width: 450px;
@@ -68,6 +68,8 @@ input, select{
 
 /* Parte do formulario */
 
+
+
 #todo-form, #edit-form {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
@@ -83,11 +85,12 @@ input, select{
 }
 
 .form-control input {
-    margin-right: .6rem;
+    margin-right: .3rem;
 }
 
 #cancel-edit-btn {
     margin-top: 1rem;
+    color: #444;
 }
 
 /* todo barra de ferramentas*/
@@ -151,7 +154,7 @@ input, select{
 }
 
 .done {
-    background-color: #eb0f07;
+    background-color: #6b6a6a;
 }
 
 .done h3 {
